@@ -1,0 +1,37 @@
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.user-profile:hover {
+    background-color: #707070;
+}
+
+
+.user-image{
+    width: 45px;
+}
+.user-image >img {
+    width: 100%;
+    border-radius: 100%;
+}
+.user-info{
+    flex: 1;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.user-name {
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: roboto;
+}
+
+.user-lastmessage {
+    font-size: 13px;
+    color: lightgrey;
+    font-family: roboto;
+}

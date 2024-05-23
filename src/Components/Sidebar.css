@@ -1,0 +1,131 @@
+@font-face {
+    font-family: Monomaniac one;
+    src: url(monomaniac-one-regular.ttf);
+}
+.sidebar {
+    min-width: 300px;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #474747;
+}
+
+.heading {
+    font-size: 18px;
+    margin-left: 5%;
+    margin-top: 10px;
+    color: #B6B6B6;
+    font-family: Monomaniac One;
+}
+
+.sidebar-header {
+    height: 50px;
+    padding: 5px 0.5px 10px;
+    background-color:rgba(130, 130, 130, 0.29);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.sidebar-header-img{
+    width: 42px;
+    margin-left: 10px;
+}
+.sidebar-header-img > img {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 100%;
+}
+.sidebar-header-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    color: #51585c;
+}
+
+.sidebar-header-btn > .MuiSvgIcon-root {
+    font-size: 23px;
+    color: #acacac;
+}
+
+.sidebar-header-name {
+    flex: 1;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.user-name {
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: roboto;
+}
+
+.sidebar-search {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #474747;
+    margin-bottom: 15px;
+}
+.sidebar-search-input{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    background-color: #767676;
+    border: 1px solid #767676;
+    border-radius: 10px;
+}
+
+.sidebar-search-input > .MuiSvgIcon-root{
+    font-size: 18px;
+    color: #acacac;
+    margin-left: 10px;
+}
+
+.sidebar-search-input > input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: 6px;
+    margin-bottom: 2px;
+    width: 80%;
+}
+
+.sidebar-search-input > input[type=text]{
+    color:#ffffff;
+}
+
+.sidebar-chat-list {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y : auto;
+}
+
+
+::placeholder{
+    color:#000000;
+    opacity: 50%;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: transparent;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+    box-shadow: 0 0 2px rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
